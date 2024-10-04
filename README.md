@@ -6,7 +6,7 @@ Perguntas e Respostas
 Pergunta 1: Qual é a área total desmatada por bioma em um município específico?
 Explicação da Consulta: Esta consulta soma a área desmatada por bioma em um município específico. Isso nos permite entender a distribuição do desmatamento entre os diferentes biomas dentro desse município.
 
-SELECT 
+```SELECT 
   municipio,
   bioma,
   SUM(area_km2) AS area_desmatada_total
@@ -17,7 +17,7 @@ WHERE
 GROUP BY 
   municipio, bioma
 ORDER BY 
-  area_desmatada_total DESC;
+  area_desmatada_total DESC;```
 
 
 Pergunta 2: Qual é o bioma com a maior área desmatada em um Município específico?
