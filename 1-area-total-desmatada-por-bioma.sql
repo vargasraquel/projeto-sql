@@ -11,3 +11,4 @@ WHERE
   diretorio_id_municipio.nome = 'Dois Irmãos do Tocantins'
 GROUP BY 
   bioma;
+  

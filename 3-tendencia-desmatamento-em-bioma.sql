@@ -8,4 +8,4 @@ WHERE
 GROUP BY 
   ano
 ORDER BY 
-  ano;
+  ano ASC;
