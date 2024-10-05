@@ -23,6 +23,7 @@ FROM
   desmatamento_anterior
 WHERE 
   ano = 2022
-  AND desmatado > desmatamento_ano_anterior;
+  AND desmatado > desmatamento_ano_anterior
 ORDER BY
-  desmatado DESC;
+  desmatado DESC
+LIMIT 10;
