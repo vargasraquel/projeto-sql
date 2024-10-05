@@ -1,6 +1,6 @@
 # Projeto 2 - Exercício de Banco de Dados (Tema 2: Desmatamento PRODES)
 ## Descrição do Projeto
-Este projeto é um exercício de banco de dados realizado para um curso. O objetivo é responder a 8 perguntas sobre os dados de desmatamento do PRODES (Projeto de Monitoramento do Desmatamento na Amazônia Legal por Satélite) utilizando consultas SQL no BigQuery.
+Este projeto é um exercício de banco de dados realizado para um curso. O objetivo é responder a 8 perguntas sobre os dados de desmatamento do [PRODES (Projeto de Monitoramento do Desmatamento na Amazônia Legal por Satélite)](https://basedosdados.org/dataset/e5c87240-ecce-4856-97c5-e6b84984bf42?table=d7a76d45-c363-4494-826d-1580e997ebf0) utilizando consultas SQL no BigQuery.
 
 ## Perguntas e Respostas
 ### Pergunta 1: Qual é a área total desmatada por bioma em um município específico?
@@ -213,8 +213,9 @@ LIMIT 1;
 ```
 
 ### Resultado
-| bioma | area_total_desmatada |
-| Pantanal | 29668.499999999996 |
+| bioma    | area_total_desmatada |
+|----------|----------------------|
+| Pantanal | 29668.499999999996   |
 </details>
 
 ### Pergunta 7: Qual a distribuição do desmatamento por bioma em um gráfico?
