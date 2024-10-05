@@ -3,7 +3,7 @@
 Este projeto é um exercício de banco de dados realizado para um curso. O objetivo é responder a 8 perguntas sobre os dados de desmatamento do PRODES (Projeto de Monitoramento do Desmatamento na Amazônia Legal por Satélite) utilizando consultas SQL no BigQuery.
 
 ## Perguntas e Respostas
-Pergunta 1: Qual é a área total desmatada por bioma em um município específico?
+### Pergunta 1: Qual é a área total desmatada por bioma em um município específico?
 Explicação da Consulta: Esta consulta soma a área desmatada por bioma em um município específico. Isso nos permite entender a distribuição do desmatamento entre os diferentes biomas dentro desse município.
 
 <details>
@@ -32,11 +32,12 @@ GROUP BY
 | Cerrado  | 22800.8              |
 </details>
 
-Pergunta 2: Qual é o bioma com a maior área desmatada em um Município específico?
+### Pergunta 2: Qual é o bioma com a maior área desmatada em um Município específico?
 Explicação da Consulta: Esta consulta identifica o bioma com a maior área desmatada em um município específico. Isso nos permite entender qual bioma está sofrendo mais com o desmatamento naquela região.
 
 <details>
   <summary>Clique para ver a resposta</summary>
+
 ```
 SELECT 
   bioma, 
@@ -62,7 +63,7 @@ LIMIT 1;
 | Cerrado | 22800.8              |
 </details>
 
-Pergunta 3: Qual foi a tendência de desmatamento ao longo dos anos em um bioma específico?
+### Pergunta 3: Qual foi a tendência de desmatamento ao longo dos anos em um bioma específico?
 Explicação da Consulta: Esta consulta analisa a tendência de desmatamento ao longo dos anos em um bioma específico. Isso nos permite entender se o desmatamento está aumentando, diminuindo ou se mantendo estável naquele bioma.
 
 <details>
@@ -110,7 +111,7 @@ ORDER BY
 | 2022 | 757394.79999999993   |
 </details>
 
-Pergunta 4: Qual é a média de desmatamento anual por bioma?
+### Pergunta 4: Qual é a média de desmatamento anual por bioma?
 Explicação da Consulta: Esta consulta calcula a média de desmatamento anual por bioma. Isso nos permite entender qual bioma está sofrendo mais com o desmatamento em média ao longo dos anos.
 
 <details>
@@ -137,7 +138,7 @@ GROUP BY
 | Pantanal       | 1033.3456521739131       |
 </details>
 
-Pergunta 5: Quais municípios apresentaram aumento no desmatamento em um ano específico?
+### Pergunta 5: Quais municípios apresentaram aumento no desmatamento em um ano específico?
 Explicação da Consulta: Esta consulta identifica os municípios que apresentaram aumento no desmatamento em um ano específico. Isso nos permite entender quais regiões estão sofrendo mais com o desmatamento naquele período.
 
 <details>
@@ -190,7 +191,7 @@ LIMIT 10;
 | 2911105      | Formosa do Rio Preto | Cerrado  | 2022 | 7944.5    |
 </details>
 
-Pergunta 6: Qual bioma teve o menor desmatamento em um determinado ano?
+### Pergunta 6: Qual bioma teve o menor desmatamento em um determinado ano?
 Explicação da Consulta: Esta consulta identifica o bioma com o menor desmatamento em um ano específico. Isso nos permite entender qual bioma está sendo mais preservado naquele período.
 
 <details>
@@ -216,7 +217,7 @@ LIMIT 1;
 | Pantanal | 29668.499999999996 |
 </details>
 
-Pergunta 7: Qual a distribuição do desmatamento por bioma em um gráfico?
+### Pergunta 7: Qual a distribuição do desmatamento por bioma em um gráfico?
 Explicação da Consulta: Esta consulta calcula a distribuição do desmatamento por bioma, que pode ser utilizada para gerar um gráfico. Isso nos permite visualizar a proporção do desmatamento entre os diferentes biomas.
 
 <details>
@@ -244,7 +245,7 @@ GROUP BY
 
 </details>
 
-Pergunta 8: Quais municípios tiveram a maior área desmatada no último ano disponível?
+### Pergunta 8: Quais municípios tiveram a maior área desmatada no último ano disponível?
 Explicação da Consulta: Esta consulta identifica os municípios com a maior área desmatada no último ano disponível. Isso nos permite entender quais regiões estão sofrendo mais com o desmatamento recentemente.
 
 <details>
