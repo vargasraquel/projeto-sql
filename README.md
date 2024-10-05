@@ -244,6 +244,8 @@ GROUP BY
 | Pampa          | 2295051.4999999939   |
 | Pantanal       | 522872.8999999995    |
 
+![image](https://github.com/user-attachments/assets/04d36177-2fb9-4b1e-8ecc-6e67075bfb14)
+
 </details>
 
 ### Pergunta 8: Quais municípios tiveram a maior área desmatada no último ano disponível?
